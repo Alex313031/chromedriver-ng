@@ -3,7 +3,11 @@
   "version": "12.2.3",
   "author": "Alex313031 <https://github.com/Alex313031>",
   "description": "Electron version of ChromeDriver",
-  "repository": "https://github.com/Alex313031/chromedriver-ng",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Alex313031/chromedriver-ng.git"
+  },
+  "homepage": "https://github.com/Alex313031/chromedriver-ng",
   "bin": {
     "chromedriver": "./chromedriver.js"
   },
