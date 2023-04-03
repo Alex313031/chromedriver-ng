@@ -1,16 +1,17 @@
 {
   "name": "electron-chromedriver",
   "version": "12.2.3",
-  "author": "Kevin Sawicki",
-  "description": "Electron ChromeDriver",
-  "repository": "https://github.com/electron/chromedriver",
+  "author": "Alex313031 <https://github.com/Alex313031>",
+  "description": "Electron version of ChromeDriver",
+  "repository": "https://github.com/Alex313031/chromedriver-ng",
   "bin": {
     "chromedriver": "./chromedriver.js"
   },
   "scripts": {
     "install": "node ./download-chromedriver.js",
     "lint": "standard --fix",
-    "test": "standard && mocha"
+    "test": "standard && mocha",
+    "clean": "rm -r -f -v ./node_modules && rm -r -f -v ./bin/*"
   },
   "engines": {
     "node": ">=12.22.9"
